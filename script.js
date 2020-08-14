@@ -67,8 +67,6 @@ $(document).ready(function(){
     //display current date
     currentDay.text(currentDate);
     
-    // //render schedule from local storage
-    renderSchedule();
-    //save button on click functionality
-    schedulingEvents.on("click", "button", saveIt);
+    // //save button on click functionality
+    // schedulingEvents.on("click", "button", saveIt);
     });
