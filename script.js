@@ -62,7 +62,6 @@ $(document).ready(function(){
     
      //initialize the array of objects
     if(!localStorage.getItem("todos")){
-      startScheduler();
     }
     
     //display current date
